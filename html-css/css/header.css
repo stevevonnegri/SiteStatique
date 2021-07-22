@@ -1,0 +1,104 @@
+/* CSS pour header + footer */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 500;
+  font-weight:normal;
+  }
+/* Header */
+
+.inherit{
+  width: inherit;
+}
+.p1{
+  padding: 0.5rem 1rem;
+}
+.boite-img {
+  position: relative;
+  text-align: center;
+}
+.Titre {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 10px 8px 10px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.header{
+  position: relative;
+}
+@media (min-width: 992px){
+    .background-white{
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+    .Titre {
+      font-size: 3.5rem;
+    }
+  }
+.menuContact{
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+}
+.menuNav{
+  position: absolute;
+  z-index: 10;
+  top: 15px;
+  left: 15px;
+}
+.cadre{
+  padding: 3px 10px 8px 10px;
+  color: white;
+}
+.cadremenu{
+  color: white;
+  margin: 0px 15px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.lienH{
+  color: white  !important;
+  padding-right: 20px !important ;
+  padding-left: 20px !important;
+}
+  .lienH:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+.Menu {
+  background-color: #5a6757;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+.footerLine{
+  border-top: 5px solid #5a6757;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.imglogo{
+  height: 130px;
+  width: 130px;
+}
+.lienF{
+  color: black !important;
+}
+.lienF:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.listefooter{
+  list-style: none;
+}
+.logo{
+  margin: 20px 20px;
+  color: #000000 !important;
+}

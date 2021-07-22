@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Château du Neuschwanstein</title>
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Boostraps -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <!-- font -->
+  <script src="https://kit.fontawesome.com/d019ecf32d.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- feuille css -->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style-accueil.css">
+
+  <!-- Liens Slick -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+  $('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  dots: true,
+  responsive: [
+     {
+      breakpoint: 950,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1,
+      }
+    }
+  ]
+});
+});</script>
+
+  </head>
+
+
+  <body>
+    <header class="header">
+      <!-- Menu contact -->
+      <div class="container-fluid ">
+        <div class="navbar navbar-expand-lg menuContact background-white row justify-content-between inherit"> 
+          <span class="navbar-brand"></span>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseLeft" aria-expanded="false">
+            <span class="fas fa-info-circle fa-2x"></span>
+          </button> 
+          <div class="navbar-collapse collapse justify-content-around" id="collapseLeft"> 
+            <ul class="navbar-nav"> 
+              <li class="nav-item p1 cadre">+49 83 62 93 083-0</li>
+              <li class="nav-item p1 cadre">Alpseestraße 12; 87645 Hohenschwangau</li>
+            </ul> 
+          </div> 
+        </div> 
+      </div>
+
+      <!-- Image -->
+      <div class="boite-img">
+
+        <picture>
+          <source media="(max-width: 320px)" srcset="../image/Neuschwanstein-320.jpg" class="img-fluid">
+          <source media="(max-width: 540px)" srcset="../image/Neuschwanstein-540.jpg" class="img-fluid">
+          <source media="(max-width: 720px)" srcset="../image/Neuschwanstein-720.jpg" class="img-fluid">
+          <source media="(min-width: 721px)" srcset="../image/Neuschwanstein.jpg" class="img-fluid">
+          <img src="../image/Neuschwanstein.jpg" alt="Château de Neuschwanstein" class="img-fluid">
+        </picture>
+        <h1 class="Titre">Bienvenue au chateau de Neuschwanstein</h1>
+      </div>
+
+        <!-- Menu de navigation -->
+      <nav class="container-fluid navbar-light"> 
+        <div class="navbar-expand-md Menu row">
+          <button type="button" class="navbar-toggler menuNav" data-toggle="collapse" data-target="#collapseRight" aria-expanded="false"> 
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="navbar-collapse collapse inherit" id="collapseRight"> 
+            <ul class="navbar-nav mx-auto"> 
+              <li class="nav-item cadremenu"><a class="nav-link lienH" href="histoire.html">Histoire</a></li>
+                <li class="nav-item cadremenu"><a class="nav-link lienH" href="exposition.html">Exposition</a></li>
+                <li class="nav-item cadremenu"><a class="nav-link lienH" href="billeterie.html">Billeterie</a></li>
+                <li class="nav-item cadremenu"><a class="nav-link lienH" href="actualites.html">Actualités</a></li> 
+            </ul> 
+          </div> 
+        </div>
+      </nav>
+    </header>
+
+    <main>
+    <!--Exposition Actuelle -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-11 col-md-10 m-auto cadreDroit"> 
+          <h2 class="mb-4">Exposition temporaire "Epée de légende: D'excalibure au sabre laser"</h2>
+          <div class="line"></div>
+          <p>Le château de Neuschwanstein offrira au public la possibilité de se plonger dans des mondes bien connus de tous. Star Wars, Games of Thrones, Harry Potter ou encore le Seigneur des anneaux seront à l’affiche. D’autres noms seront aussi au rendez-vous : Xena la guerrière, Conan le barbare, sans oublier Highlander.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mb-5 mt-5">
+      <div class="row justify-content-between">
+        <!-- Map Google -->
+        <div class="col-12 col-lg-6 align-self-center ">
+          <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d881.3869277883628!2d10.750274278118056!3d47.557625125178156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8a6866bd39dbba3!2sCh%C3%A2teau%20de%20Neuschwanstein!5e0!3m2!1sfr!2sfr!4v1606472129905!5m2!1sfr!2sfr" style="border:0; width: 100%; height: 100%" allowfullscreen="" aria-hidden="false" class="mb-5"></iframe>
+          </div>
+        </div>
+
+        <!--Horaire d'ouverture -->
+        <div class="col-10 col-lg-4 align-self-center cadreDroit horaire">
+          <h2 class="mb-4">Horaires d'ouverture du château de Neuschwanstein</h2>
+          <div class="line"></div>
+          <p>Avril à 15 octobre: de 9 à 18 heures<br>
+            16 octobre à mars: de 10 à 16 heures<br>
+            Ouvert tous les jours sauf le 1er janvier et les 24, 25 et 31 décembre</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- The slideshow -->
+    <div class="container">
+      <div class="carousel center">
+          <div class="cadreDroit cadreAvis">
+            <h3>Cedric Boitte</h3>
+            <img src="../image/avis/avis1.png" alt="5 étoiles avis">
+            <p>Je conseille vraiment la visite de l'intérieur (même si un peu rapide), aussi beau dedans que dehors - mais photos interdites. Certains détails nous rappellent aussi que ce château n'est pas si vieux, datant de la fin 19e. N'oubliez pas de faire un tour par le pont pour les photos de l'extérieur.</p>
+          </div>
+          <div class="cadreDroit cadreAvis">
+            <h3>Jordan</h3>
+            <img src="../image/avis/avis1.png" alt="5 étoiles avis">
+            <p>Magnifique château du roi fou, où l'organisation des visites (avec audioguide) est vraiment bien huilée. 🙂👍
+            Seul bémol, il n'y avait aucune traduction en français sur les différents panneaux d'informations proches du site. 😔
+            Quoi qu'il en soit, nous y retournerons 🙂 </p>
+          </div>
+          <div class="cadreDroit cadreAvis">
+            <h3>Clara Favrichon</h3>
+            <img src="../image/avis/avis3.png" alt="3 étoiles avis">
+            <p>L'extérieur est magnifique et on s'attend à une longue visite....
+              Malheureusement la visite est expédiée au pas de course et si on loupe la calèche cela devient la course pour arriver exténué au chateau à côté pour la visite! La vente des billets à 8h le matin pour le jour même n'est pas des plus pratique.</p>
+          </div>
+          <div class="cadreDroit cadreAvis">
+            <h3>Anaïs</h3>
+            <img src="../image/avis/avis3.png" alt="3 étoiles avis">
+            <p>Magnifique, somptueux tant intérieur qu extérieur. Prenez vos entrées en ligne car monument très prisé donc du monde en caisse. Son voisin n a rien a lui envier. Prévoyez de visiter les 2. Poussez un peu après le château pour aller sur un pont avec 1 point de vue sur le château et la campagne à couper le souffle.</p>
+          </div>
+          <div class="cadreDroit cadreAvis ">
+            <h3>Itinérance</h3>
+            <img src="../image/avis/avis2.png" alt="4 étoiles avis">
+            <p>Bien sûr, nous avons adoré ce château magnifique mais forcément déçu de n'avoir pu le visiter, covid oblige. Dommage d'avoir fait tous ces kilomètres.   Énormément de monde, nous avons eu la chance d'être en moto, c'est plus simple pour se garer. On a quand même apprécié.</p>
+          </div>
+      </div> 
+    </div>
+  </main>
+
+  <!--Footer -->
+  <div class="footerLine"></div>
+  <footer class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-4 col-12 text-center">
+          <img src="../image/logoNeuschwanstein.png" alt="logo du Neuschwanstein" class="imglogo">
+        </div>
+
+        <ul class="col-sm-4 col-12 text-center align-self-center listefooter">
+          <li><a class="lienF" href="index.html">Accueil</a></li>
+          <li><a class="lienF" href="histoire.html">Histoire</a></li>
+          <li><a class="lienF" href="exposition.html">Exposition</a></li>
+          <li><a class="lienF" href="billeterie.html">Billeterie</a></li>
+          <li><a class="lienF" href="actualites.html">Actualités</a></li>
+        </ul>
+
+        <!-- Logo -->
+        <div class="col-sm-4 col-12 text-center align-self-center">
+          <a href="https://twitter.com/neuschwansteine?lang=fr"><i class="fab fa-twitter-square fa-3x logo"></i></a>
+          <a href="https://fr-fr.facebook.com/theroyalcastles"><i class="fab fa-facebook-square fa-3x logo"></i></a>
+          <a href="https://www.instagram.com/neuschwanstein.castle/"><i class="fab fa-instagram-square fa-3x logo"></i></a>
+        </div>
+      </div>  
+
+      <div class="row d-flex text-center align-self-center">
+        <a class="lienF col-sm-6 col-12" href="mentionsLegal.html">Mentions légales</a>
+        <a class="lienF col-sm-6 col-12" href="plansDuSites.html">Plans du sites</a>
+      </div>
+    </footer>
+
+</body>
+ 
+</html>

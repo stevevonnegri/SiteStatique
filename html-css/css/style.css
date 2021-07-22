@@ -1,0 +1,78 @@
+/* CSS text */ 
+figcaption{
+	text-align: center;
+}
+.line {
+    border-bottom: 7px solid #ffffff;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 40%;
+}
+.cadreDroit{
+	background-color: #cccccc;
+	-webkit-box-shadow: 20px -20px 0px 5px rgba(90,103,87,1);
+	-moz-box-shadow: 20px -20px 0px 5px rgba(90,103,87,1);
+	box-shadow: 20px -20px 0px 5px rgba(90,103,87,1);
+	height: 100%;
+	margin-right: 30px;
+	margin-top: auto;
+	margin-bottom: auto; 
+}
+.cadreGauche{
+	background-color: #cccccc;
+	-webkit-box-shadow: -20px -20px 0px 5px rgba(90,103,87,1);
+	-moz-box-shadow: -20px -20px 0px 5px rgba(90,103,87,1);
+	box-shadow: -20px -20px 0px 5px rgba(90,103,87,1);
+	margin-left: 30px;
+	height: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.transition{
+	margin: 2rem;
+}
+
+ /* Histoire */
+
+ .cadreAncre{
+	background-color: #5a6757;
+	list-style: none;
+}
+
+.cadreAncre li{
+	padding: 0.5rem; 
+}
+.cadreAncre a{
+	color: white !important;
+}
+#LouisII {
+	margin: 30px 0px 45px 50px;
+	padding: 1rem !important;
+	background-color: #5a6757;
+	font-size: 2rem;
+	color: white !important;
+}
+
+/* Billeterie */
+
+.areatext{
+	max-width: 75%;
+	margin-left: 15px;
+}
+.btnformulaire button{
+	background-color: #5a6757;
+	padding: 1rem;
+	color: white !important;
+}
+
+.infoFormulaire{
+	font-weight: 300;
+}
+
+/* Plans du site */
+
+.lienP a{
+	color: black !important;
+}
